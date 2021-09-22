@@ -6,7 +6,6 @@
     background: rgb(109, 104, 104);
     overflow: hidden;
   }
-
   .topnav a {
     float: left;
     color: #fffdfd;
@@ -20,8 +19,6 @@
     background-color: rgb(45, 82, 185);
     color: black;
   }
-
-
 .header {
   padding: 10px 15px;
   
@@ -30,13 +27,11 @@
 .content {
   padding: 15px;
 }
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%
 }
-
 .sticky + .content {
   padding-top: 102px;
 } */
@@ -132,6 +127,7 @@
   #sk{
       color: rgb(226, 230, 40);
       text-align: left;
+      margin-left: 2%;
   }
 
   .cover_image1{
