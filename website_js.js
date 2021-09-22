@@ -1,17 +1,6 @@
-// window.onscroll = function() {myFunction()};
+var dt = new Date();
+document.getElementById('date-time').innerHTML=dt;
 
-// var header = document.getElementById("myHeader");
-
-// var sticky = header.offsetTop;
-
-// function myFunction() {
-//   if (window.pageYOffset > sticky) {
-//     header.classList.add("sticky");
-//   } else {
-//     header.classList.remove("sticky");
-//   }
-// }
-let v="hi";
 function home(){
     document.getElementById("seconddiv").innerHTML=`<div >
     <br><br>
@@ -76,8 +65,8 @@ function abt(){
 
 function wins(){
   document.getElementById("seconddiv").innerHTML=`<div class="homepage">
-  <br>
   <h1 >WINS</h1>
+  <h4>"A Little Progress Each Day Adds Up To Big Results." </h4>
   <p>I have secured an AIR of 328 in Graduate Aptitude Test in Engineering(CSE) 2021.</p> 
   <p>I have received certificate of appreciation for proficiency in teaching in Literacy venture of
     Rotaract of HIT,Kolkata</p>
@@ -95,7 +84,7 @@ function contact(){
   <h1>CONTACT</h1>
   <img class="location" src="https://raw.githubusercontent.com/vka001/pic/main/location.png" alt="location";>
   Mobile No: +917209293856<br>
-  <br><br><a href="https://github.com/vka001" class="links">
+  <br><a href="https://github.com/vka001" class="links">
   <i class="fa fa-github"></i> GITHUB</a> <br> 
   <a href="https://www.linkedin.com/in/vineet-agrawal-503a03152" class="links">
   <i class="fa fa-linkedin-square"></i> Linkedin</a>
