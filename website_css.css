@@ -3,7 +3,7 @@
 }
 
 .topnav {
-    background-color: rgb(139, 126, 126);
+    background: rgb(109, 104, 104);
     overflow: hidden;
   }
 
@@ -11,9 +11,9 @@
     float: left;
     color: #fffdfd;
     text-align: center;
-    padding: 14px 16px;
+    padding: 13px 10px;
     text-decoration:chartreuse;
-    font-size: 17px;
+    font-size: 15px;
   }
   
   .topnav a:hover {
@@ -21,13 +21,24 @@
     color: black;
   }
 
-  .navbar-fixed-top {
-    position: fixed;
-    top: 0;
-    border-width: 0 0 1px;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+
+.header {
+  padding: 10px 15px;
+  
+  color: #f1f1f1;
+}
+.content {
+  padding: 15px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
 }
 
 .cover_image{
@@ -100,30 +111,4 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.top-container {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-}
-
-.header {
-  padding: 10px 16px;
-  background: #555;
-  color: #f1f1f1;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
 }
