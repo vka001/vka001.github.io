@@ -56,7 +56,7 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 5px 5px;
+  padding: 8px 5px;
   text-decoration: none;
 }
 
@@ -132,7 +132,6 @@
   #sk{
       color: rgb(226, 230, 40);
       text-align: left;
-      margin-left: 2%;
   }
 
   .cover_image1{
